@@ -1,0 +1,75 @@
+#clientform {
+  max-width: 750px;
+  padding-left: 3rem;
+  @media (max-width: 768px) {
+    padding-left: 8rem;
+  }
+  @media screen and (max-width: 576px) {
+    padding: 3rem;
+  }
+}
+
+#input,
+#textarea {
+  background-color: var(--input-bg-color) !important;
+  color: var(--text-color);
+  border: 1px solid var(--input-color) !important;
+}
+
+#budgetinput {
+  background-color: var(--input-bg-color) !important;
+  color: var(--text-color);
+  border: none;
+}
+
+input {
+  height: 3.3rem;
+}
+
+input::placeholder {
+  color: var(--input-color) !important;
+}
+
+.formControl {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--text-color);
+  appearance: none;
+  background-clip: padding-box;
+  border-radius: 0.5rem;
+}
+
+.form-check-input {
+  font: var(--poppins-font);
+  box-shadow: none !important;
+}
+
+#tc {
+  color: #ffffffbe;
+  text-decoration: none;
+}
+
+.formHeadTitle {
+  font: var(--poppins-font);
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: var(--head-color);
+}
+
+.formHeadTagline {
+  font: var(--poppins-font);
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: var(--text-color);
+}
+
+#formLabel {
+  font: var(--poppins-font);
+  font-weight: 400;
+  font-size: 1rem;
+  color: var(--text-color);
+}

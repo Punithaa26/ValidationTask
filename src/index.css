@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --bg-color: #202227;
+  --head-color: #ffffff;
+  --text-color: #8692a6;
+  --button-bg-color: #5871eb;
+  --button-bg-hover-color: #2a3255;
+  --input-color: #8692a6;
+  --input-bg-color: #2b2a2f;
+  --dotColor: #33384f;
+  --poppins-font: "Poppins", sans-serif;
+}
+
+.body {
+  position: relative;
+  background: var(--bg-color);
+  color: var(--text-color);
+  min-height: 100vh;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.8rem 1.6rem;
+  background: var(--button-bg-color);
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  color: var(--head-color);
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+  transition: 0.5s ease;
+}
+.button:hover {
+  background: var(--button-bg-hover-color);
+}
+.button:focus,
+.button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
